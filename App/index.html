@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Banana Website</title>
+	<link rel="stylesheet" href="CSS/main.css">	
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab:wght@200;700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="scripts/js-script.js"></script>
+</head>
+<body>
+	<div class="Main_Headers">
+        <h1>Бананы</h1>
+        <h2>Что же такое <font color="yellow">бананы?</font></h2>
+    </div>
+        <hr/>
+    <div>
+    	<nav>    	<table class="menu">
+    		<tr>
+    			<td><a href="index.html"><button>Главная</button></td></a>
+    			<td><a href="history.html"><button>История бананов</button></td></a>
+    			<td><a href="sorta.html"><button>Сорта бананов</button></td></a>
+    			<td><a href="about_me.html"><button onclick="buttonClick()">О создателе</button></td></a>
+    		</tr>
+    	</table>
+        </nav>
+    </div>
+    <div class="content">
+        <h3 class="t3" >Кратко о <font color="yellow">бананах</font></h3>
+        <button class="otkrit" onClick="changeDisplay(this)">Открыть список</button>
+        <div style = "display: none;" id="1">
+	        <ul>
+	        <li>С ботанической точки зрения банан является <b>ягодой, многосеменной и толстокожей.</b></li>
+	        <li>У культурных форм часто <b>отсутствуют семена,</b> ненужные при вегетативном размножении. </li>
+	        <li>Плоды имеют длину <b>6—30 см</b> и <b>диаметр 2—5 см.</b> Соплодия могут состоять из <b>300 плодов</b> и иметь массу до <b>50—60 кг</b></li>
+	        <li>Бананы бывают не только <b>желтыми, но и красными,</b> у красных более нежная мякоть.</li>
+	</ul>
+
+
+
+</div>
+	<img src="img/banan1_h3.jpg" alt="">
+
+	<h3>Интересные факты</h3>
+<table class="table-test" border="1">
+		<thead>
+			<tr>
+			    <th>Правда</th>
+			    <th>Ложь</th>
+		    </tr>
+		</thead>
+		<tbody>
+			<tr>
+                <td>Ускоряет метаболизм и заряжает энергией</td>
+                <td>Сахар в бананх опасен для здоровья</td>
+
+            </tr>
+            <tr>
+                <td>Улучшает здоровье мозга, костей и кожи</td>
+                <td>От бананов толстеют</td>
+            </tr>
+            <tr>
+            	<td>Калий в составе банана насыщает клетки кислородом, смягчает головную боль</td>
+            	<td>Банан также вреден, как картошка-фри</td>
+            </tr>
+		</tbody>
+</table>
+
+<div class="footer">
+	<hr/>
+		<footer>Website by banan_b_ AKA Александра Перцева AKA Любителя бананов / 2022</footer>
+</div>
+</body>
+</html>
